@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 import os
 
-
-# functions
 def split(filehandler, delimiter=',', row_limit=499,
           output_name_template='output_%s.csv', output_path='.', keep_headers=True):
     import csv
